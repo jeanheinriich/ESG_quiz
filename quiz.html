@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Descubra a sensação de liberdade sobre duas rodas com a VelozDrive. Explore nossos serviços de aluguel de motos e carros, projetados para transformar cada viagem em uma jornada emocionante. Sua aventura começa aqui. Acelere conosco!" />
+  <link rel="stylesheet" href="quiz.css"/>
+  <link rel="shortcut icon" href="img/LOGO-sem.png" type="image/x-icon" />
+  <title>Quiz</title>
+</head>
+<body>
+    
+    <div class="container">
+        <section class="quiz-section">
+            <div class="quiz-box">
+                <h1>Quiz</h1>
+                <div class="quiz-header">
+                    <span>Quiz ESG</span>
+                    <span class="header-score">Pontos: 0 / 5</span>
+                </div>
+                
+                <h2 class="question-text">1. O que significa a sigla ESG?</h2>
+                
+                <div class="option-list">
+                    
+                    <div class="option" onclick="optionSelected(this)">
+                        <span>a) Environmental, Social, and Growth</span>
+                    </div>
+        
+    
+                    <div class="option" onclick="optionSelected(this)">
+                        <span>b) Economic, Social, and Governance</span>
+                    </div>
+            
+                
+                    <div class="option"  onclick="optionSelected1(this)">
+                        <span>c) Environmental, Social, and Governance</span>
+                    </div>
+            
+                
+                    <div class="option" onclick="optionSelected(this)">
+                        <span>d) Energy, Sustainability, and Governance</span>
+                    </div>
+                     
+                </div>
+               
+                <div class="quiz-footer">
+                    <span class="question-total">Pergunta 1 de 5</span>
+                    <Button class="next-btn">Próxima Pergunta</Button>
+                </div>
+            </div>
+
+            <div class="result-box">
+                <h2>Resultado!</h2>
+                <div class="porcentage-container">
+                    <div class="circular-progress">
+                        <span class="progress-value">0%</span>            
+                    </div>
+                
+                    <span class="text">0 de 5 pontos</span>
+                </div>
+
+                <div class="buttons">
+                    <button class="tryAgain-btn">Jogar denovo</button>
+                   <a href="index.html"><button class="goHome-bt">Voltar ao site</button></a> 
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="question.js"></script>
+  
+</body>
+</html>
