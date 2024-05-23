@@ -30,7 +30,9 @@
   --laptop: 1336px;
   --large-laptop: 1920px;
 }
-
+body{
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
   font-size: 16px;
