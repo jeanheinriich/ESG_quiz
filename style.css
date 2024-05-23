@@ -445,8 +445,8 @@ ion-icon{
 /*QUIZ*/
 
 .popup-info{
-  position: fixed;
-  top: -20%;
+  position: absolute;
+  top: -25%;
   left: 50%;
   transform: translate(-50%, 50%) scale(.9);
   width: 600px;
